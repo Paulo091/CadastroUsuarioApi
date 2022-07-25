@@ -1,0 +1,296 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Api\\CadastroUsuarios.Api.csproj": {}
+  },
+  "projects": {
+    "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Api\\CadastroUsuarios.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Api\\CadastroUsuarios.Api.csproj",
+        "projectName": "CadastroUsuarios.Api",
+        "projectPath": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Api\\CadastroUsuarios.Api.csproj",
+        "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+        "outputPath": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Data\\CadastroUsuarios.Data.csproj": {
+                "projectPath": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Data\\CadastroUsuarios.Data.csproj"
+              },
+              "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Domain\\CadastroUsuarios.Domain.csproj": {
+                "projectPath": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Domain\\CadastroUsuarios.Domain.csproj"
+              },
+              "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Ioc\\CadastroUsuarios.Ioc.csproj": {
+                "projectPath": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Ioc\\CadastroUsuarios.Ioc.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Data\\CadastroUsuarios.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Data\\CadastroUsuarios.Data.csproj",
+        "projectName": "CadastroUsuarios.Data",
+        "projectPath": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Data\\CadastroUsuarios.Data.csproj",
+        "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+        "outputPath": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Domain\\CadastroUsuarios.Domain.csproj": {
+                "projectPath": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Domain\\CadastroUsuarios.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Domain\\CadastroUsuarios.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Domain\\CadastroUsuarios.Domain.csproj",
+        "projectName": "CadastroUsuarios.Domain",
+        "projectPath": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Domain\\CadastroUsuarios.Domain.csproj",
+        "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+        "outputPath": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Ioc\\CadastroUsuarios.Ioc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Ioc\\CadastroUsuarios.Ioc.csproj",
+        "projectName": "CadastroUsuarios.Ioc",
+        "projectPath": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Ioc\\CadastroUsuarios.Ioc.csproj",
+        "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+        "outputPath": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Ioc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Data\\CadastroUsuarios.Data.csproj": {
+                "projectPath": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Data\\CadastroUsuarios.Data.csproj"
+              },
+              "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Domain\\CadastroUsuarios.Domain.csproj": {
+                "projectPath": "H:\\Meus Projetos\\CadastroUsuarios\\CadastroUsuarios.Domain\\CadastroUsuarios.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

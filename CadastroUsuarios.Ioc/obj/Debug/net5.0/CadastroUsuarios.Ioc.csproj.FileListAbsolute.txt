@@ -1,0 +1,17 @@
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\bin\Debug\net5.0\CadastroUsuarios.Ioc.deps.json
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\bin\Debug\net5.0\CadastroUsuarios.Ioc.dll
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\bin\Debug\net5.0\ref\CadastroUsuarios.Ioc.dll
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\bin\Debug\net5.0\CadastroUsuarios.Ioc.pdb
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\bin\Debug\net5.0\CadastroUsuarios.Data.dll
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\bin\Debug\net5.0\CadastroUsuarios.Domain.dll
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\bin\Debug\net5.0\CadastroUsuarios.Domain.pdb
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\bin\Debug\net5.0\CadastroUsuarios.Data.pdb
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\obj\Debug\net5.0\CadastroUsuarios.Ioc.csproj.AssemblyReference.cache
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\obj\Debug\net5.0\CadastroUsuarios.Ioc.GeneratedMSBuildEditorConfig.editorconfig
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\obj\Debug\net5.0\CadastroUsuarios.Ioc.AssemblyInfoInputs.cache
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\obj\Debug\net5.0\CadastroUsuarios.Ioc.AssemblyInfo.cs
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\obj\Debug\net5.0\CadastroUsuarios.Ioc.csproj.CoreCompileInputs.cache
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\obj\Debug\net5.0\CadastroUsuarios.Ioc.csproj.CopyComplete
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\obj\Debug\net5.0\CadastroUsuarios.Ioc.dll
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\obj\Debug\net5.0\ref\CadastroUsuarios.Ioc.dll
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Ioc\obj\Debug\net5.0\CadastroUsuarios.Ioc.pdb
