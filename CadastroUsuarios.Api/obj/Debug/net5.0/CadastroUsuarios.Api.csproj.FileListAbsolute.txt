@@ -63,3 +63,5 @@ H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Api\obj\Debug\net5.0\Cadastro
 H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Api\obj\Debug\net5.0\ref\CadastroUsuarios.Api.dll
 H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Api\obj\Debug\net5.0\CadastroUsuarios.Api.pdb
 H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Api\obj\Debug\net5.0\CadastroUsuarios.Api.genruntimeconfig.cache
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Api\bin\Debug\net5.0\Humanizer.dll
+H:\Meus Projetos\CadastroUsuarios\CadastroUsuarios.Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

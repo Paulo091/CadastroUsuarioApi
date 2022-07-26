@@ -10,7 +10,7 @@ namespace CadastroUsuarios.Domain.UsuarioRoot.Interfaces
 
         Task<UsuarioCommandResult> Handler(UsuarioUpdateCommand command);
 
-        Task<UsuarioCommandResult> Handler(UsuarioDeleteCommand command);
+        void Handler(int Id);
 
     }
 }

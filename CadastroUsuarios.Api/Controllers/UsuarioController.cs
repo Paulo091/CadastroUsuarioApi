@@ -1,12 +1,11 @@
 ﻿using CadastroUsuarios.Data.Context;
+using CadastroUsuarios.Domain.UsuarioRoot;
+using CadastroUsuarios.Domain.UsuarioRoot.Commands.Inputs;
+using CadastroUsuarios.Domain.UsuarioRoot.Commands.Results;
+using CadastroUsuarios.Domain.UsuarioRoot.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace CadastroUsuarios.Api.Controllers
 {
@@ -14,42 +13,39 @@ namespace CadastroUsuarios.Api.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        private readonly UsuariosDbContext _context;
-        public UsuarioController(UsuariosDbContext context)
-        {
-            _context = context;
-        }
         // GET: api/<ValuesController>
         [HttpGet]
-        public IEnumerable<object> Get()
+        public IEnumerable<object> Get([FromServices] IUsuarioRepository repository)
         {
-            var resultado = _context.Usuarios.Find();
-            return new string[] { "value1", "value2" };
+            return repository.ListarTodos();
         }
 
         // GET api/<ValuesController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public Usuario Get(int id, [FromServices] IUsuarioRepository repository)
         {
-            return "value";
+            return  repository.ObterPorId(id);
         }
 
         // POST api/<ValuesController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<UsuarioCommandResult> Post(UsuarioAddCommand command, [FromServices] IUsuarioHandler handler)
         {
+            return await handler.Handler(command);
         }
 
         // PUT api/<ValuesController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        public async Task<UsuarioCommandResult> Put(UsuarioUpdateCommand command, [FromServices] IUsuarioHandler handler)
         {
+            return await handler.Handler(command);
         }
 
         // DELETE api/<ValuesController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public void Delete(int id, [FromServices] IUsuarioHandler handler)
         {
+            handler.Handler(id);
         }
     }
 }

@@ -10,6 +10,7 @@
         "dependencies": {
           "CadastroUsuarios.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.Design": "5.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.17"
         },
